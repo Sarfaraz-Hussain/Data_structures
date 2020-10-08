@@ -6,6 +6,8 @@ int Partition(int a[], int l, int h)
 	int pivot = a[l];
 	int i = l - 1;
 	int j = h + 1;
+//this is the hoare aprttion that we are using here okk
+//And also we can use the Lumuto parttiion as well to do the Quick Sort okk.
 	while (true)
 	{
 		do
